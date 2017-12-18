@@ -34,7 +34,7 @@ label {
     color: #333;
 }
 
-input[type="text"], input[type="tel"]  {
+input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="number"]  {
     padding: 8px;
     margin-left: 16px;
     display: block;
