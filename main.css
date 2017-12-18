@@ -32,6 +32,7 @@ input {
 label {
     font-weight: 700;
     color: #333;
+    display: block;
 }
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="number"],  input[type="date"], input[type="time"]  {
