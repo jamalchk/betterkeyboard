@@ -5,20 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Teste com Inputs personalizados</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet">
 </head>
 <body>
     <nav class="navigation">
         <h1>Meu formulário</h1>
     </nav>
 
-    <h2>Formulário</h2>
-    <p>Preencha o formulário a seguir e seja feliz!</p>
-    <form>
+    <div class="formulario">
+
+
+        <form id="questions" method="POST" action="">
+            
+            <label for="name">Qual é o seu nome?</label>
+            <input type="text" name="name" id="name" placeholder="Digite o seu nome">
+
+            <label for="color">Qual é a sua cor preferida?</label>
+            <input type="text" name="color" id="color" placeholder="Qual é a sua cor preferida?">
+
+            <label for="cpf">Qual é o seu CPF?</label>
+            <input type="tel" name="cpf" id="cpf" placeholder="Digite o seu CPF">
         
-        Digite o seu CPF:
-        <input type="tel" placeholder="Digite o seu CPF">
+            <input type="submit" value="Salvar">
+    
 
-
-    </form>
+        </form>
+    </div>
 </body>
 </html>
